@@ -1,7 +1,7 @@
 %define	module	Devel-StackTrace
 %define	name	perl-%{module}
 %define	version 1.15
-%define	release %mkrel 1
+%define	release %mkrel 2
 
 Name:		%{name}
 Version:	%{version}
