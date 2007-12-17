@@ -13,7 +13,6 @@ Source0:	http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/%{module}-%{version
 Url:		http://search.cpan.org/dist/%{module}/
 BuildArch:	noarch
 BuildRequires:	perl-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 %{module} module for perl.  Simple objects to deal with stack traces.
