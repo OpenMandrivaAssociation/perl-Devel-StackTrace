@@ -1,5 +1,5 @@
 %define	upstream_name	 Devel-StackTrace
-%define	upstream_version 1.22
+%define upstream_version 1.24
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	Stack trace and stack trace frame objects
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
@@ -30,7 +30,7 @@ chmod 644 lib/Devel/StackTrace.pm
 %make
 
 %check
-%{__make} test
+%make test
 
 %install
 rm -rf %{buildroot}
