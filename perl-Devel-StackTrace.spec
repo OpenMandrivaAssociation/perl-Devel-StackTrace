@@ -1,9 +1,9 @@
 %define	upstream_name	 Devel-StackTrace
-%define upstream_version 1.24
+%define upstream_version 1.26
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:	Stack trace and stack trace frame objects 
 License:	GPL+ or Artistic
