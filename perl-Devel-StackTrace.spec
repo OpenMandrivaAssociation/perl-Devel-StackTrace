@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	9
+Release:	10
 
 Summary:	Stack trace and stack trace frame objects 
 License:	GPL+ or Artistic
