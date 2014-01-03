@@ -1,15 +1,15 @@
 %define	upstream_name	 Devel-StackTrace
-%define upstream_version 1.27
+%define upstream_version 1.30
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	10
+Release:	1
 
 Summary:	Stack trace and stack trace frame objects 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/Devel-StackTrace-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -136,4 +136,5 @@ chmod 644 lib/Devel/StackTrace.pm
 
 * Wed May 28 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 1.03-3mdk
 - rebuild for new auto{prov,req}
+
 
