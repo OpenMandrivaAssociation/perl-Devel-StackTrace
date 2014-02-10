@@ -1,4 +1,5 @@
 removed_sources:
   Devel-StackTrace-1.27.tar.gz: 2be3206443832bab6a8cd3ea995cdec983e16d7c
-sources:
   Devel-StackTrace-1.30.tar.gz: a2f03eec508df962156ae0cd5b4087a3b58836e1
+sources:
+  Devel-StackTrace-1.31.tar.gz: a736dbfaba4192a646eef0283b0b987ad36b892a

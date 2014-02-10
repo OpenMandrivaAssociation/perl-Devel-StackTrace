@@ -1,5 +1,5 @@
 %define	upstream_name	 Devel-StackTrace
-%define upstream_version 1.30
+%define upstream_version 1.31
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -136,5 +136,6 @@ chmod 644 lib/Devel/StackTrace.pm
 
 * Wed May 28 2003 Thierry Vignaud <tvignaud@mandrakesoft.com> 1.03-3mdk
 - rebuild for new auto{prov,req}
+
 
 
