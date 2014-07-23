@@ -1,9 +1,9 @@
 %define	upstream_name	 Devel-StackTrace
-%define upstream_version 1.32
+%define upstream_version 1.34
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Stack trace and stack trace frame objects 
 
@@ -40,6 +40,3 @@ chmod 644 lib/Devel/StackTrace.pm
 %doc Changes LICENSE README
 %{perl_vendorlib}/Devel
 %{_mandir}/*/*
-
-
-
