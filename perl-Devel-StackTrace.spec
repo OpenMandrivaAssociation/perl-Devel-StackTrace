@@ -37,6 +37,6 @@ chmod 644 lib/Devel/StackTrace.pm
 %makeinstall_std
 
 %files
-%doc Changes LICENSE README
+%doc Changes LICENSE 
 %{perl_vendorlib}/Devel
 %{_mandir}/*/*
