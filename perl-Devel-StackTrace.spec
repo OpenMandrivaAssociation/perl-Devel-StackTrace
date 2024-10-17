@@ -9,7 +9,7 @@ Summary:	Stack trace and stack trace frame objects
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Devel::StackTrace
+Url:		https://metacpan.org/pod/Devel::StackTrace
 Source0:	http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl(Test::More)
