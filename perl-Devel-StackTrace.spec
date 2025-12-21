@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/Devel::StackTrace
 Source0:	http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/%{upstream_name}-%{version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 BuildArch:	noarch
